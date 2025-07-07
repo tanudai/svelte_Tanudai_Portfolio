@@ -1,5 +1,17 @@
 {
+  "name": "tanudai-sveltekit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
-    "@sveltejs/adapter-vercel": "^5.7.2"
+    "@sveltejs/adapter-vercel": "^5.7.2",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.59.2",
+    "vite": "^4.5.0"
   }
 }
